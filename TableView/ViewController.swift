@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var cityImageView: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        cityLabel.text = city[myIndex]
+        print(city[myIndex])
+        cityImageView.image = UIImage(named: city[myIndex])
+        
     }
 
 
