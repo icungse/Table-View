@@ -13,6 +13,7 @@
 		FEB1B5F32246B74B001F3F90 /* TableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B5F12246B74B001F3F90 /* TableView.xcdatamodeld */; };
 		FEB1B5F52246B74D001F3F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB1B5F42246B74D001F3F90 /* Assets.xcassets */; };
 		FEB1B5F82246B74D001F3F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB1B5F62246B74D001F3F90 /* LaunchScreen.storyboard */; };
+		FEB1B6022246BCA0001F3F90 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1B6012246BCA0001F3F90 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FEB1B5F42246B74D001F3F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEB1B5F72246B74D001F3F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEB1B5F92246B74D001F3F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB1B6012246BCA0001F3F90 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				FEB1B5EA2246B74B001F3F90 /* AppDelegate.swift */,
 				FEB1B5EC2246B74B001F3F90 /* ViewController.swift */,
+				FEB1B6012246BCA0001F3F90 /* TableViewController.swift */,
 				FEB1B5EE2246B74B001F3F90 /* Main.storyboard */,
 				FEB1B5F42246B74D001F3F90 /* Assets.xcassets */,
 				FEB1B5F62246B74D001F3F90 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				FEB1B5ED2246B74B001F3F90 /* ViewController.swift in Sources */,
 				FEB1B5F32246B74B001F3F90 /* TableView.xcdatamodeld in Sources */,
 				FEB1B5EB2246B74B001F3F90 /* AppDelegate.swift in Sources */,
+				FEB1B6022246BCA0001F3F90 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
